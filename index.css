@@ -1,0 +1,42 @@
+
+
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 3px;
+    background-color: black;
+    grid-gap: auto;
+}
+
+.card {
+    text-align: center;
+    background-color: blue;
+    color: yellow;
+    font-size: xx-large;
+    padding: 3px;
+    margin: 1%;
+    height: 60px;
+}
+
+.card.header {
+    color: white;
+}
+
+.card.question:hover {
+    border: 3px yellow solid;
+    padding: 0px;
+}
+
+.card.question.clicked { 
+    color:blueviolet;
+}
+
+.card.question.clicked:hover {
+    border: 0px yellow solid;
+    padding: 3px;
+}
+
+#question {
+   font-size: xx-large; 
+}
